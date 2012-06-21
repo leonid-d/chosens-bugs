@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Мой договор в Екатеринбурге</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="lib/chosen/chosen.css" media="all">
+
+    <script type="text/javascript" src="lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/chosen/chosen.jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            jQuery("#form-support__street").chosen({no_results_text: "Не найдена улица", search_contains: true});
+            jQuery("#form-support__house-num").chosen({no_results_text: "Не найден дом ", search_contains: true});
+        });
+    </script>
+
+</head>
+<body>
+<form class="form" action="">
+    <div class="form__element">
+        <label class="form__label" for="form-support__street">Улица</label>
+        <select class="form__inp_middle" id="form-support__street" data-placeholder="Выберите улицу">
+            <option value=""></option>
+            <option>Абаканская</option>
+            <option>Авангардная</option>
+            <option>Авиационная</option>
+            <option>Адмирала Макарова</option>
+            <option>Адмирала Нахимова</option>
+            <option>Адмирала Старикова</option>
+            <option>Адмирала Ушакова</option>
+            <option>Белинского</option>
+            <option>Боровая</option>
+            <option>Восточная</option>
+            <option>Коммунистическая</option>
+            <option>Ленина</option>
+            <option>Лермонтова</option>
+            <option>Карла Маркса</option>
+            <option>Малышева</option>
+            <option>Маршала Жукова</option>
+            <option>Маршала Рыбалко</option>
+            <option>Маршала Толбухина</option>
+            <option>Набережная</option>
+            <option>Первомайская</option>
+            <option>Посадская</option>
+            <option>Пушкина</option>
+            <option>Розы Люксембург</option>
+            <option>Свердлова</option>
+            <option>Сиреневый Бульвар</option>
+            <option>Александра Серегеевича</option>
+            <option>Александра Серегеевича Агапитова</option>
+            <option>Александра Серегеевича Жовнера</option>
+            <option>Сулимова</option>
+            <option>Таганская</option>
+            <option>Хохрякова</option>
+            <option>Чапаева</option>
+            <option>Широкая</option>
+            <option>Шишкина</option>
+        </select>
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;    
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 100%;
+    line-height: 17px;}
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0;}
+html {
+    overflow-y: scroll;
+    height: 100%;
+}
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    height: 100%;
+    background: #c7c8ca;
+}
+label, input[type="button"], input[type="submit"], button {
+    cursor: pointer;
+}
+input, select, button, textarea {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    margin: 0;
+}
+input[type="radio"] {
+    margin: 0;
+}
+select {
+    height: 22px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/*ссылки*/
+a{outline: none; color: #0073d4;}
+a:hover {color: #fc050d;}
+
+/*очистка*/
+.g-clear {overflow: hidden;clear: both;font: 0/1;}
+
+.rub {
+    font-family: "ALSRubl-Arial", sans-serif;
+    font-size: 1em;
+}
+.rub-chev_light {
+    font-family: "ChevRubLight", sans-serif;
+}
+.rub-chev_bold {
+    font-family: "ChevRubBold", sans-serif;
+    font-size: 1.1em;
+}
+
+.footer-bottom,
+.footer-push {
+    height: 160px;    
+}
+.form {
+    padding: 10px 0 40px;
+}
+.form__element {
+    padding-top: 12px;
+    white-space: nowrap;
+}
+.form__label {
+    vertical-align: top;
+    padding-top: 4px;
+    padding-right: 40px;
+    display: inline-block;
+    text-align: right;
+    width: 232px;
+    white-space: nowrap;
+}
+select.form__inp_middle {
+    width: 225px;
+}
+.form__inp_middle {
+    border-radius: 0;
+    opacity: 1;
+    border: 1px solid #7F9DB9;
+}
